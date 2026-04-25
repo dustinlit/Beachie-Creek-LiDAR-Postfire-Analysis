@@ -8,7 +8,7 @@
 **Author:** Dustin Littlefield  
 **Portfolio:** https://github.com/dustinlit  
 **Project Type:** `LiDAR Analysis` `Post-Fire Assessment` `Forest Structure`  
-**Technologies:** `USGS LiDAR` `PDAL` `ArcGIS Pro` `Change Detection`  
+**Technologies:** `USGS LiDAR` `LP360` `ArcGIS Pro` `Change Detection`  
 **Last Updated:** April 2026
 
 ## Overview
