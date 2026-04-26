@@ -15,11 +15,11 @@
 This project utilizes multi-temporal LIDAR to quantify wildfire related impacts on forest and topography within a sample of the 2020 Beachie Creek fire. By comparing pre‑fire and post‑fire datasets, the analysis evaluates canopy loss, surviving vegetation structure, debris accumulation, and topographic stability following a high‑severity wildfire event.
 
 <p align="center">
-  <img src="Ravine_Before_and_After.jpg" width="600" title="Beachie Creek Burn Severity">
+  <img src="Ravine_Before_and_After.jpg" width="800" title="Beachie Creek Burn Severity">
 </p>
 
 <p align="center">
-  <img src="Stand_before_and_after.jpg" width="600" title="Beachie Creek Burn Severity">
+  <img src="Stand_before_and_after.jpg" width="800" title="Beachie Creek Burn Severity">
 </p>
 
 ## Data
@@ -34,11 +34,11 @@ Post‑fire dataset acquired after the burn, used to assess structural change an
 
 **2020 – NAIP Orthophoto (0.60 m)**  
 Four‑band CNIR aerial imagery collected pre‑fire, used for vegetation condition assessment and contextual mapping.  
-**ID:** M_4412213_NE_10_060_20200720
+**Data Source:** https://earthexplorer.usgs.gov/scene/metadata/full/5e83a340bf820c39/2991624/
 
 **2022 – NAIP Orthophoto (0.30 m)**  
 Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting canopy‑loss interpretation and fine‑scale change detection.  
-**ID:** M_4412213_NE_10_030_20220711
+**Data Source:** https://earthexplorer.usgs.gov/scene/metadata/full/5e83a340bf820c39/3223342/
 
 
 <p align="center">
