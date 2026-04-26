@@ -12,7 +12,7 @@
 **Last Updated:** April 2026
 
 ## Overview
-This project utilizes multi-temporal LIDAR to quantify wildfire related impacts on forest and topographical within a portion of the 2020 Beachie Creek fire. By comparing pre‑fire and post‑fire datasets, the analysis evaluates canopy loss, surviving vegetation structure, debris accumulation, and topographic stability following a high‑severity wildfire event.
+This project utilizes multi-temporal LIDAR to quantify wildfire related impacts on forest and topography within a sample of the 2020 Beachie Creek fire. By comparing pre‑fire and post‑fire datasets, the analysis evaluates canopy loss, surviving vegetation structure, debris accumulation, and topographic stability following a high‑severity wildfire event.
 
 <p align="center">
   <img src="Ravine_Before_and_After.jpg" width="600" title="Beachie Creek Burn Severity">
@@ -23,13 +23,23 @@ This project utilizes multi-temporal LIDAR to quantify wildfire related impacts 
 </p>
 
 ## Data
-**2008 - OR Willamette Valley OLC 2008 (Tile: 001530)** <br>
-Baseline pre‑fire dataset collected for the USGS 3DEP program representing forest and terrain conditions prior to the Beachie Creek Fire.
-<br>
-[Data Source](https://www.sciencebase.gov/catalog/item/64174dabd34eb496d1d165cb?utm_source=copilot.com)
 
-**2022 - USGS Western Wildfires A22** <br>
-Post‑fire dataset acquired after the burn, used to assess structural change and recovery patterns.
+**2008 – OR Willamette Valley OLC 2008 (Tile: 001530)**  
+Baseline pre‑fire dataset collected for the USGS 3DEP program representing forest and terrain conditions prior to the Beachie Creek Fire.  
+**Data Source:** https://www.sciencebase.gov/catalog/item/64174dabd34eb496d1d165cb
+
+**2022 – USGS Western Wildfires A22**  
+Post‑fire dataset acquired after the burn, used to assess structural change and recovery patterns.  
+**Data Source:** https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OR_WesternWildfires_A22/
+
+**2020 – NAIP Orthophoto (0.60 m)**  
+Four‑band CNIR aerial imagery collected pre‑fire, used for vegetation condition assessment and contextual mapping.  
+**ID:** M_4412213_NE_10_060_20200720
+
+**2022 – NAIP Orthophoto (0.30 m)**  
+Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting canopy‑loss interpretation and fine‑scale change detection.  
+**ID:** M_4412213_NE_10_030_20220711
+
 
 <p align="center">
   <img src="data.jpg" width="800" title="Beachie Creek Burn Severity">
