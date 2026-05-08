@@ -77,13 +77,28 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 
 **Description:** A 160 acre site was selected at random in the extent of the overlapping coverage zones of available LIDAR data. The chosen area contains 4 distinct regions of interest. There is a riparian corridor in a ravine carved by fish creek which is flanked to the east and west by steep rising slopes. The western slope is dominated by mature forest, while the eastern slopes, contain younger vegetation that shows evidence of post-harvest regeneration. Finally, in the center and southeast portions of the study area there are two open areas that appear to have been harvested prior to the 2008 USGS 3DEP scans. **
 
-<p align="center">
-  <img src="study area.jpg" width="800" title="Beachie Creek Burn Severity">
-</p>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 4.</strong> Pre- and post-fire detailed view of 160-acre study area in Beachie Creek Fire.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: Oregon Statewide Lambert (ft) <br>
+    Source: 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m) 
+    </em>
+  </figcaption>
+  <img src="study area.jpg" width="800" alt="">
+</figure>
 
-<p align="center">
-  <img src="Lidar.jpg" width="600" title="Beachie Creek Burn Severity">
-</p>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 5.</strong> Pre-fire profile view of 160-acre study area in Beachie Creek Fire.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Source: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530) 
+    </em>
+  </figcaption>
+  <img src="Lidar.jpg" width="800" alt="">
+</figure>
+
 
 ## Preprocessing preliminary workflow
 - **ArcGIS Pro**
