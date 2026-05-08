@@ -14,13 +14,26 @@
 ## Overview
 This project utilizes multi-temporal LIDAR to quantify wildfire related impacts on forest and topography within a sample of the 2020 Beachie Creek fire. By comparing pre‑fire and post‑fire datasets, the analysis evaluates canopy loss, surviving vegetation structure, debris accumulation, and topographic stability following a high‑severity wildfire event.
 
-<p align="center">
-  <img src="Ravine_Before_and_After.jpg" width="800" title="Beachie Creek Burn Severity">
-</p>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 1.</strong> 3D GIS fusion view of ravine in study area using LiDAR and NAIP imagery <br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet<br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR, 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m)</em>
+  </figcaption>
+  <img src="Ravine_Before_and_After.jpg" width="700" alt="3D GIS fusion view of ravine before and after fire">
+</figure>
 
-<p align="center">
-  <img src="Stand_before_and_after.jpg" width="800" title="Beachie Creek Burn Severity">
-</p>
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 2.</strong> 3D GIS fusion view of stand before and after fire.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet<br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR, 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m)</em>
+  </figcaption>
+  <img src="Stand_before_and_after.jpg" width="700" alt="3D GIS fusion view of stand before and after fire">
+</figure>
+
 
 ## Data
 
@@ -32,6 +45,14 @@ Baseline pre‑fire dataset collected for the USGS 3DEP program representing for
 Post‑fire dataset acquired after the burn, used to assess structural change and recovery patterns.  
 **Data Source:** https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OR_WesternWildfires_A22/
 
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Table 1.</strong> LiDAR scan info<br>
+    <em>
+  </figcaption>
+  <img src="data.jpg" width="700" alt="3D GIS fusion view of stand before and after fire">
+</figure>
+
 **2020 – NAIP Orthophoto (0.60 m)**  
 Four‑band CNIR aerial imagery collected pre‑fire, used for vegetation condition assessment and contextual mapping.  
 **Data Source:** https://earthexplorer.usgs.gov/scene/metadata/full/5e83a340bf820c39/2991624/
@@ -40,17 +61,19 @@ Four‑band CNIR aerial imagery collected pre‑fire, used for vegetation condit
 Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting canopy‑loss interpretation and fine‑scale change detection.  
 **Data Source:** https://earthexplorer.usgs.gov/scene/metadata/full/5e83a340bf820c39/3223342/
 
-
-<p align="center">
-  <img src="data.jpg" width="800" title="Beachie Creek Burn Severity">
-</p>
-
 ## Study Area 
 
 **Location:** Santiam Canyon, Marion County, Oregon, US <br>
-<p align="left">
-  <img src="Overview.jpg" width="600" title="Beachie Creek Burn Severity">
-</p>
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 3.</strong> Overview of Beachie Creek fire perimeter and selected study area.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: WGS 1984 UTM 10N<br>
+    Source: Copernicus Data Space Ecosystem (Sentinel‑2B MSI), European Union/ESA</em>
+  </figcaption>
+  <img src="Overview.jpg" width="700" alt="">
+</figure>
 
 **Description:** A 160 acre site was selected at random in the extent of the overlapping coverage zones of available LIDAR data. The chosen area contains 4 distinct regions of interest. There is a riparian corridor in a ravine carved by fish creek which is flanked to the east and west by steep rising slopes. The western slope is dominated by mature forest, while the eastern slopes, contain younger vegetation that shows evidence of post-harvest regeneration. Finally, in the center and southeast portions of the study area there are two open areas that appear to have been harvested prior to the 2008 USGS 3DEP scans. **
 
