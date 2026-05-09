@@ -192,3 +192,47 @@ $ dCHM = CHM_{2008 prefire} - CHM_{2022 postfire} $
 <br>
 
 ## Results
+
+### Terrain
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 7.</strong> 2022 LiDAR‑derived slope map with 10‑ft contours for the 160‑acre study area within the Beachie Creek Fire perimeter. Steeper slopes are concentrated along the central ridgeline, while gentler terrain occupies the lower benches and drainage corridors.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Sources: 2022 USGS Western Wildfires A22 LiDAR </em>
+  </figcaption>
+  <img src="topo.jpg" width="800" alt="">
+</figure>
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 8.</strong> 2022 LiDAR‑derived aspect map showing directional slope exposure across the 160‑acre study area. South‑ and east‑facing slopes dominate the ridgeline, while cooler north‑facing aspects are rare.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
+  </figcaption>
+  <img src="aspect.jpg" width="800" alt="">
+</figure>
+
+## Vegetation
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 9.</strong> LiDAR‑derived Canopy Height Models (CHM) from 2008 (pre‑fire) and 2022 (post‑fire) illustrating major changes in forest structure following the Beachie Creek Fire. The pre‑fire CHM shows mature closed‑canopy forest, while the post‑fire CHM reveals widespread canopy removal and isolated pockets of surviving vegetation.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
+  </figcaption>
+  <img src="chm.jpg" width="800" alt="">
+</figure>
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 6.</strong> LiDAR‑derived difference Canopy Height Model (dCHM) showing canopy height change between 2008 and 2022. Negative values (white) indicate canopy loss from the 2020 Beachie Creek Fire, with the largest reductions occurring on exposed slopes and ridge tops. Limited positive values (black) reflect regrowth or surviving structure in protected terrain. <br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
+  </figcaption>
+  <img src="dchm.jpg" width="800" alt="">
+</figure>
