@@ -61,8 +61,7 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 
 ## Study Area 
 
-### Location: 
-  Santiam Canyon, Marion County, Oregon, US <br>
+**Location:** Santiam Canyon, Marion County, Oregon, US <br>
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
@@ -100,7 +99,7 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 </figure>
 
 
-## Preprocessing preliminary workflow
+## Preprocessing
 - **ArcGIS Pro**
   - Identify Extent of Study Area
   - Define Projection of 2008 Lidar Dataset
