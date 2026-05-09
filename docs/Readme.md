@@ -21,7 +21,7 @@ This project utilizes multi-temporal LIDAR to quantify wildfire related impacts 
     Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet<br>
     Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR, 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m)</em>
   </figcaption>
-  <img src="Ravine_Before_and_After.jpg" width="700" alt="3D GIS fusion view of ravine before and after fire">
+  <img src="Ravine_Before_and_After.jpg" width="600" alt="3D GIS fusion view of ravine before and after fire">
 </figure>
 
 <figure>
@@ -31,7 +31,7 @@ This project utilizes multi-temporal LIDAR to quantify wildfire related impacts 
     Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet<br>
     Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR, 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m)</em>
   </figcaption>
-  <img src="Stand_before_and_after.jpg" width="700" alt="3D GIS fusion view of stand before and after fire">
+  <img src="Stand_before_and_after.jpg" width="600" alt="3D GIS fusion view of stand before and after fire">
 </figure>
 
 
@@ -71,7 +71,7 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
     Spatial Reference: WGS 1984 UTM 10N<br>
     Source: Copernicus Data Space Ecosystem (Sentinel‑2B MSI), European Union/ESA</em>
   </figcaption>
-  <img src="Overview.jpg" width="700" alt="">
+  <img src="Overview.jpg" width="1000" alt="">
 </figure>
 
 ### Description:
@@ -85,7 +85,7 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
     Source: 2020 NAIP Orthophoto (0.60 m), 2022 NAIP Orthophoto (0.30 m) 
     </em>
   </figcaption>
-  <img src="study area.jpg" width="800" alt="">
+  <img src="study area.jpg" width="1000" alt="">
 </figure>
 
 <figure>
@@ -96,7 +96,7 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
     Source: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530) 
     </em>
   </figcaption>
-  <img src="Lidar.jpg" width="800" alt="">
+  <img src="Lidar.jpg" width="600" alt="">
 </figure>
 
 
