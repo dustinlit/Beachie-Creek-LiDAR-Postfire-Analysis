@@ -158,7 +158,16 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 #### **Process**
   - Method: *Height Above Ground*
   - *(insert chart of classfication values)*
-  - *(insert profile views of classification results)*
+
+<figure>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;">
+    <strong>Figure 6.</strong> Profile view of vegetation classification of 160-acre study area in Beachie Creek Fire.<br>
+    <em>Map Author: Dustin Littlefield <br>
+    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
+    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
+  </figcaption>
+  <img src="veg_class.jpg" width="800" alt="">
+</figure>
 
 ### Vegetation Change Detection
 
