@@ -111,51 +111,29 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
   <img src="workflow.jpg" width="800" title="Beachie Creek Burn Severity">
 </p>
 
-### Quality control
-#### Info
-   - processed in *LP360*
-#### Point Density
-  - NPS from both dates
-  - Point Density Raster
-  - Scan Angle
-#### Flight Lines
-  - Check for Gaps
-  - Vertical Accuracy (Visual)
-  - Generate Rasters and calculate RMSE (Statistical)
-#### Point Consistency Check for Ground Classification
-  - Known stable sites
-  - Avoid ground under canopy
-  - 8-15 patches
-  - DoD = DEM 2022 – DEM 2008
-  - Calculate Zonal Stats (RMSE)
+### Quality Control
+
+- **Point Density:** NPS for both years, density raster, scan angle review  
+- **Flight Lines:** check for gaps, visual vertical alignment, generate rasters + RMSE  
+- **Ground Consistency:** stable sites only (8–15 patches), avoid canopy cover,  
+  DoD = DEM₍2022₎ – DEM₍2008₎, compute zonal RMSE
+
 
 ### Ground Classification
-#### **Info**
-  - Classify only 2022 scan
-  - Use 2008 scan as reference
-    - keep ground surface provided to USGS 3DEP
 
-#### **Process**
-  - Filter out low noise
-  - Seed and Densify
-    - Conservative settings to avoid misclassification of debris and vegetation
-  - Ground thinning
-    - smooth out remaining ground
-
-#### **Ground Accuracy**
-  - *(insert table of RMSE from 2008 surface)*
-  - **+0.46** bias of 2022 surface compared to 2008 ground
-    - too high for fine scale debris work
-    - acceptable for canopy height work
+- Classified **2022** LiDAR ground; used **2008 USGS 3DEP** ground as reference  
+- Removed low noise prior to ground modeling  
+- Applied **Seed & Densify** with conservative settings to avoid misclassifying debris or vegetation  
+- Performed **ground thinning** to smooth remaining artifacts  
+- Identified a **+0.46 ft bias** in the 2022 ground surface relative to 2008  
+  - Too high for fine‑scale debris analysis  
+  - Acceptable for canopy‑height modeling
 
 ### Vegetation Classification
 
-#### **Info**
   - Both 2008 and 2022 scans require vegetation classification
   - Focus on **tall vegetation** for canopy height modeling
   - Classified using current standards in Pacific Northwest.
-
-#### **Process**
   - Method: *Height Above Ground*
   - *(insert chart of classfication values)*
 
@@ -171,24 +149,25 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 
 ### Vegetation Change Detection
 
-#### **Canopy Height Model (CHM)**
-$ CHM = DSM - DEM $
+#### Canopy Height Model (CHM)
+<div style="text-align:center; margin: 8px 0; font-style:italic;">
+  CHM = DSM − DEM
+</div>
 
   - Digital Surface Model (DSM) - Vegetation and Ground classifications, First returns only
   - Digital Elevation Model (DEM) - Ground Points only
-  - Canopy Height Model (CHM) = DSM - DEM
-    - Each pixel tallest vegetation as height above ground.
-      - Resolution: *(insert res)*
+  - Canopy Height Model (CHM) = tallest vegetation pixel as height above ground.
 
-#### **Difference Canopy Height Model (dCHM)**
+
+#### Difference Canopy Height Model (dCHM)
 The dCHM is a raster with measurable differences in elevation where canopy is either gained or lost (forested or burnt). This can be used to **classify burn severity** and identify **areas of interest**.
-<br>
-<br>
-$ dCHM = CHM_{2008 prefire} - CHM_{2022 postfire} $
-<br>
 
-  - *Positive result = Net canopy growth*
-  - *Negative result = Net canopy loss*
+<div style="text-align:center; font-style:italic; margin:10px 0;">
+  dCHM = CHM<sub>2008&nbsp;prefire</sub> − CHM<sub>2022&nbsp;postfire</sub>
+</div>
+
+  - *Positive value = Net canopy growth*
+  - *Negative value = Net canopy loss*
 <br>
 
 ## Results
