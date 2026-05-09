@@ -197,7 +197,7 @@ The dCHM is a raster with measurable differences in elevation where canopy is ei
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 9.</strong> LiDAR‑derived Canopy Height Models (CHM) from 2008 (pre‑fire) and 2022 (post‑fire) illustrating major changes in forest structure following the Beachie Creek Fire. The pre‑fire CHM shows mature closed‑canopy forest, while the post‑fire CHM reveals widespread canopy removal and isolated pockets of surviving vegetation.<br>
+    <strong>Figure 9.</strong> LiDAR‑derived Canopy Height Models (CHM). LEFT: 2008 (pre‑fire) RIGHT: 2022 (post‑fire) Illustrates major changes in forest structure following the Beachie Creek Fire. The pre‑fire CHM shows mature closed‑canopy forest, while the post‑fire CHM reveals widespread canopy removal and isolated pockets of surviving vegetation.<br>
     <em>Map Author: Dustin Littlefield <br>
     Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
     Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
