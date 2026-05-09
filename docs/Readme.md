@@ -202,7 +202,7 @@ The dCHM is a raster with measurable differences in elevation where canopy is ei
     Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
     Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
   </figcaption>
-  <img src="chm.jpg" width="800" alt="">
+  <img src="chm.jpg" width="1200" alt="">
 </figure>
 
 <figure>
