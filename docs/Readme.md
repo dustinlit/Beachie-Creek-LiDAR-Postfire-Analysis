@@ -211,28 +211,18 @@ The dCHM is a raster with measurable differences in elevation where canopy is ei
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Table 2.</strong> Mean Canopy Loss by Terrain Class <br>
   </figcaption>
-  <img src="table2.jpg" width="800" alt="">
+  <img src="table2.jpg" width="400" alt="">
 </figure>
 
 ## Areas of Interest
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 10.</strong>  LiDAR‑based comparison of vegetation structure in the Northern Grove (≈14 acres) using pre‑fire (2008) and post‑fire (2022) point clouds. The 3D visualizations show a transition from dense, uniform canopy to a more heterogeneous post‑fire landscape with variable regrowth. The accompanying point‑density metrics quantify changes in low, medium, and high vegetation classes, highlighting substantial reductions in mid‑story vegetation and increases in both low‑vegetation and high‑vegetation returns.<br>
+    <strong>Figure 10.</strong>  LiDAR‑based comparison of vegetation structure in the Northern (~14 acres) and Southern (~35 acres) groves using pre‑fire (2008) and post‑fire (2022) point clouds. <br>
     <em>Map Author: Dustin Littlefield <br>
     Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
     Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
   </figcaption>
-  <img src="north_grove.jpg" width="1800" alt="">
-  <img src="south_grove.jpg" width="1800" alt="">
+  <img src="groves.jpg" width="1800" alt="">
 </figure>
 
-<figure>
-  <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Figure 10.</strong> LiDAR‑derived difference Canopy Height Model (dCHM) showing canopy height change between 2008 and 2022. Negative values (white) indicate canopy loss from the 2020 Beachie Creek Fire, with the largest reductions occurring on exposed slopes and ridge tops. Limited positive values (black) reflect regrowth or surviving structure in protected terrain. <br>
-    <em>Map Author: Dustin Littlefield <br>
-    Spatial Reference: NAD 1983 (2011) Oregon Statewide Lambert (ft), NAVD88 (Geoid 18), US Survey Feet <br>
-    Sources: 2008 USGS 3DEP LiDAR (OR Willamette Valley OLC 2008, Tile 001530), 2022 USGS Western Wildfires A22 LiDAR </em>
-  </figcaption>
-  <img src="south_grove.jpg" width="1800" alt="">
-</figure>
