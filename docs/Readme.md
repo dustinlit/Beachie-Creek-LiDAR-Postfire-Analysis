@@ -46,9 +46,7 @@ Post‑fire dataset acquired after the burn, used to assess structural change an
 **Data Source:** https://rockyweb.usgs.gov/vdelivery/Datasets/Staged/Elevation/LPC/Projects/OR_WesternWildfires_A22/
 
 <figure>
-  <figcaption style="font-size:0.9em; margin-bottom:8px;">
-    <strong>Table 1.</strong> LiDAR scan info<br>
-    <em>
+  <figcaption style="font-size:0.9em; margin-bottom:8px;"> <strong>Table 1.</strong> LiDAR scan info<br>
   </figcaption>
   <img src="data.jpg" width="700" alt="3D GIS fusion view of stand before and after fire">
 </figure>
@@ -63,7 +61,8 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
 
 ## Study Area 
 
-**Location:** Santiam Canyon, Marion County, Oregon, US <br>
+### Location: 
+  Santiam Canyon, Marion County, Oregon, US <br>
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
@@ -75,7 +74,8 @@ Higher‑resolution four‑band CNIR imagery collected post‑fire, supporting c
   <img src="Overview.jpg" width="700" alt="">
 </figure>
 
-**Description:** A 160 acre site was selected at random in the extent of the overlapping coverage zones of available LIDAR data. The chosen area contains 4 distinct regions of interest. There is a riparian corridor in a ravine carved by fish creek which is flanked to the east and west by steep rising slopes. The western slope is dominated by mature forest, while the eastern slopes, contain younger vegetation that shows evidence of post-harvest regeneration. Finally, in the center and southeast portions of the study area there are two open areas that appear to have been harvested prior to the 2008 USGS 3DEP scans. **
+### Description:
+ A 160 acre site was selected at random in the extent of the overlapping coverage zones of available LIDAR data. The chosen area contains 4 distinct regions of interest. There is a riparian corridor in a ravine carved by fish creek which is flanked to the east and west by steep rising slopes. The western slope is dominated by mature forest, while the eastern slopes, contain younger vegetation that shows evidence of post-harvest regeneration. Finally, in the center and southeast portions of the study area there are two open areas that appear to have been harvested prior to the 2008 USGS 3DEP scans. **
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
