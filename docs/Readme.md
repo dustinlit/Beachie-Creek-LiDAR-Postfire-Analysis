@@ -90,20 +90,19 @@ Using NAIP imagery, four distinct areas of interest were identified.
   <img src="Lidar.jpg" width="600" alt="">
 </figure>
 
-
-## Preprocessing
-- **ArcGIS Pro**
-  - Identify Extent of Study Area
-  - Define Projection of 2008 Lidar Dataset
-  - Extract LAS using mask of study area <br>
-
 ## Methods
 <p align="center">
   <img src="workflow.jpg" width="800" title="Beachie Creek Burn Severity">
 </p>
 
-### Quality Control
+### Preprocessing
+Software: **ArcGIS Pro**
+  - Identify Extent of Study Area
+  - Define Projection of 2008 Lidar Dataset
+  - Extract LAS using mask of study area <br>
 
+### Quality Control
+Software: **LP360**
 
 - **Point Density:** NPS for both years, density raster, scan angle review  
 - **Flight Lines:** check for gaps, visual vertical alignment, generate rasters + RMSE  
@@ -112,6 +111,7 @@ Using NAIP imagery, four distinct areas of interest were identified.
 
 
 ### Ground Classification
+Software: **LP360**
 
 - Classified **2022** LiDAR ground; used **2008 USGS 3DEP** ground as reference  
 - Removed low noise prior to ground modeling  
@@ -122,6 +122,7 @@ Using NAIP imagery, four distinct areas of interest were identified.
   - Acceptable for canopy‑height modeling
 
 ### Vegetation Classification
+Software: **LP360**
 
   - Both 2008 and 2022 scans require vegetation classification
   - Focus on **tall vegetation** for canopy height modeling
@@ -145,9 +146,9 @@ Using NAIP imagery, four distinct areas of interest were identified.
 </figure>
 
 ### Vegetation Change Detection
+Software: **ArcGIS Pro**
 
 #### Canopy Height Model (CHM)
-
 <div style="text-align:center; margin: 8px 0; font-style:italic;">
   CHM = DSM − DEM
 </div>
@@ -181,9 +182,9 @@ Using NAIP imagery, four distinct areas of interest were identified.
   <img src="topo.jpg" width="800" alt="">
 </figure>
 
-- The 2022 LiDAR products provide a clear representation of the study area's topography.  
-- Elevation decreases from ~2200 ft in the north to ~1300 ft in the south.  
-- A central ravine divides the terrain, with steep west‑facing slopes and gentler east‑facing slopes.  
+- **Slope**
+  - Elevation decreases from ~2200 ft in the north to ~1300 ft in the south.  
+  - A central ravine divides the terrain, with steep west‑facing slopes and gentler east‑facing slopes.  
 
 
 <figure>
@@ -196,8 +197,9 @@ Using NAIP imagery, four distinct areas of interest were identified.
   <img src="aspect.jpg" width="800" alt="">
 </figure>
 
-- The landscape is dominated by south‑ and east‑facing aspects, with very few north‑facing slopes.  
-- These warmer, more exposed aspects experience greater solar radiation, making the area more vulnerable to severe fire behavior and canopy loss.
+- **Aspect**
+  - The landscape is dominated by south‑ and east‑facing aspects, with very few north‑facing slopes.  
+  - These warmer, more exposed aspects experience greater solar radiation, making the area more vulnerable to severe fire behavior and canopy loss.
 
 ## Vegetation Maps
 
@@ -211,12 +213,14 @@ Using NAIP imagery, four distinct areas of interest were identified.
   <img src="chm.jpg" width="1200" alt="">
 </figure>
 
-- The 2008 and 2022 CHMs show major changes in canopy structure before and after the Beachie Creek Fire.  
-- The 2008 CHM displays a continuous, mature canopy in the northern and western areas, with clear height differences between groves.  
-- The northern grove appears youngest, while the western zone contains tall, mature (200 ft+) trees indicative of possible old growth.  
-- The 2022 CHM shows substantial canopy loss in the western and southern zones, with some areas reduced to ground level.  
-- Western canopy loss reflects both fire effects and logging; extreme values along the ravine likely stem from ground‑classification issues.  
-- The northern grove retains most of its canopy, highlighting strong spatial contrasts in fire behavior and post‑fire structure.
+- The CHMs show major changes in canopy structure before and after the Beachie Creek Fire.  
+- **2008 CHM**
+  - Displays a continuous, mature canopy in the northern and western areas, with clear height differences between groves.  
+  - The northern grove appears youngest, while the western zone contains tall, mature (200 ft+) trees indicative of possible old growth.  
+- **2022 CHM**
+  - Shows substantial canopy loss in the western and southern zones, with some areas reduced to ground level.  
+  - Western canopy loss reflects both fire effects and logging; extreme values along the ravine likely stem from ground‑classification issues.  
+  - The northern grove retains most of its canopy, highlighting strong spatial contrasts in fire behavior and post‑fire structure.
 
 
 <figure>
@@ -230,9 +234,11 @@ Using NAIP imagery, four distinct areas of interest were identified.
 </figure>
  
 - Results within the analysis area show a clear spatial pattern of canopy change.  
-- The northern grove exhibits net positive canopy growth despite its higher elevation.  
-- The southern grove shows substantial canopy loss and represents the most heavily impacted portion of the site.
-
+- **Northern grove**
+  - exhibits net positive canopy growth despite its higher elevation.  
+- **Southern grove**
+  - shows substantial canopy loss and represents the most heavily impacted portion of the site.
+  - Fire damage creates a distinctly different **patchy pattern** as compared to the logging in the western zone due to surviving trees and remaining snags
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
     <strong>Table 2. Mean Canopy Loss by Terrain Class</strong><br>
@@ -254,20 +260,21 @@ Using NAIP imagery, four distinct areas of interest were identified.
   <img src="groves.jpg" width="1800" alt="">
 </figure>
 
-- `Northern grove` 
+- **Northern grove** 
   - shows a 60% increase in high‑vegetation points, indicating net canopy growth.  
   - Mid‑vegetation points decreased, likely reflecting consumption of lower fuels and limited ladder‑fuel continuity within the grove.  
-- `Southern grove` 
-  - experienced an **80% reduction** in both medium‑ and high‑vegetation classes 
-  - correlates with ***high burn severity**.  
+- **Southern grove** 
+  - experienced an **80% reduction** in both medium‑ and high‑vegetation classes.
+  - correlates well with **high burn severity**.  
 
+## Conclusion
 - Despite their proximity, the two groves show contrasting outcomes: the northern grove sits higher in the terrain with fewer continuous fuels, while the southern grove occupies lower, more fuel‑connected slopes.  
-- These differences illustrate how local topography and fuel arrangement can produce patchy burn effects within an area classified as high burn severity.  
-- A clearing between the groves may have contributed to the divergent outcomes, though additional factors such as wind conditions and fuel availability also influence fire behavior.
+- These differences illustrate how **local topography and fuel arrangement** can produce patchy burn effects within an area classified as high burn severity.  
+- The clearing between the groves may have contributed to the divergent outcomes, though additional factors such as wind conditions and fuel availability also influence fire behavior.
 
 ## Lessons Learned
 A few key lessons stood out while completing this project.
-  1) Ground generation is critical and can be a laborious process. It is important to identify the level of accuracy necessary given specific use cases and study extent.
-  2) Reducing the extent of this project made it much more manageable and allowed for more efficient experimentation. I can foresee how it is important to refine the process with a smaller area before processing the full extent. 
-  3) Narrowing the focus to one specific effect delivers better quality results.
+  - **Ground generation is critical** and can be a laborious process. It is important to identify the level of accuracy necessary given specific use cases and study extent.
+  - Reducing the extent of this project made it much more manageable and allowed for more efficient experimentation. I can foresee how it is important to **refine the process with a smaller area** before processing the full extent. 
+  - Narrowing the **focus to one specific effect** delivers better quality results.
       - For instance, while attempting debris classification had slight success in identifying downed trees in the west and south, the overall raster was too noisy for meaningful analysis. It became evident that debris classification and fuel structure probably require a higher point density to create more accurate ground and vegetation accuracy to generate meaningful results.
