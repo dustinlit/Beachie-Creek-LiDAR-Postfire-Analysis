@@ -168,9 +168,7 @@ Software: **ArcGIS Pro**
   - *Negative value = Net canopy loss*
 <br>
 
-## Results
-
-### Terrain Maps
+## Terrain Results
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
@@ -201,7 +199,7 @@ Software: **ArcGIS Pro**
   - The landscape is dominated by south‑ and east‑facing aspects, with very few north‑facing slopes.  
   - These warmer, more exposed aspects experience greater solar radiation, making the area more vulnerable to severe fire behavior and canopy loss.
 
-## Vegetation Maps
+## Vegetation Results
 
 <figure>
   <figcaption style="font-size:0.9em; margin-bottom:8px;">
